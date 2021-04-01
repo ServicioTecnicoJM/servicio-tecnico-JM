@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Contacto JM</title>
+
+    <link rel="shortcut icon" href="img/servitec.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos3.css"> 
+    <link rel = "stylesheet" href = "css/font-awesome.css">
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+
+    <section class="form_wrap">
+
+        <section class="contact_info">
+            <section class="info_title">
+                <h2>SERVICIO TÉCNICO JM</h2>
+                <br>
+                <p>Si desea mas información, por favor llene el formulario o llame a cualquiera de los siguientes números telefónicos:</p>
+            </section>
+            <section class="info_items">
+                <p> (246) 117 3011 </p>
+                <p> (246) 117 5399 </p>
+                <p> (246) 198 0901 </p>
+                <p> (221) 346 1918  </p>
+                <p> (221) 346 2307 </p>
+                <p> (241) 123 5729 </p>
+            </section>
+        </section>
+    
+        <form action="enviar.php" method="post" class="form_contact">
+            <h2>¡Ponte en contacto con nosotros!</h2>
+            <div class="user_info">
+                <label for="names">Nombres *</label>
+                <input type="text" id="names" name="nombre" required>
+
+                <label for="address">Dirección *</label>
+                <input type="text" id="address" name="direccion" required>
+
+                <label for="phone">Teléfono / Celular *</label>
+                <input type="text" id="phone" name="telefono" required>
+
+                <label for="mensaje">Mensaje *</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <input type="submit" value="Enviar" id="btnSend">
+            </div>
+        </form>
+
+    </section>
+        
+</body>
+</html>
